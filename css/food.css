@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+* a {
+    text-decoration: none;
+}
+
+* li {
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    min-height: 56vh;
+}
+
+.container .menu .logo {
+    font-size: 2.3rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.menu {
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    padding: 0 25px;
+    font-size: 15px;
+}
+
+.menu ul li a {
+    font-weight: bold;
+    color: white;
+}
+
+.menu .logo a {
+    color: white;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('https://wanderersandwarriors.com/wp-content/uploads/2018/07/Luang-Prabang-Night-Market-The-Best-Market-In-Asia-1-1440x960.jpg');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.guid {
+    display: flex;
+    margin: 0 AUTO;
+    width: 85%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -32%);
+    position: absolute;
+    bottom: 50%;
+    height: 50px;
+}
+
+.guid .header .card {
+    position: relative;
+}
+
+.guid .header h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.guid .header p {
+    color: white;
+}
+
+.guid .header h2 {
+    color: white;
+}
+
+.containerr {
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-and-sidebar-wrapper {
+    display: flex;
+    padding: 0 60px;
+    left: 20px;
+    position: relative;
+}
+
+.main {
+    font-size: center;
+    margin-right: 60px;
+    flex: 3;
+    margin-top: 30px;
+}
+
+.main h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.main p {
+    margin-bottom: 30px;
+}
+
+.main img {
+    width: 100%;
+}
+
+footer {
+    color: #ef5350;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 6opx;
+}
+
+footer p {
+    color: #777;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.inner-footer {
+    margin: 0;
+    padding: 0;
+    background-color: #273746;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links ul {
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #6cccc6;
+    transition: all .2s;
+}
+
+.social-items a:hover {
+    color: #539e99;
+}
+
+.quick-links {
+    display: flex;
+    width: 600px;
+    height: 70px;
+    margin: auto;
+}
+
+.quick-links ul {
+    display: flex;
+}
+
+.quick-items {
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    padding: 20px 18px;
+    font-size: 18px;
+    color: white;
+}
+
+.quick-items a:hover {
+    color: #6cccc6;
+}
+
+.outer-footer {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #466f5a;
+}
+
+footer {
+    width: 100%;
+}
